@@ -124,3 +124,15 @@ man test
 ./queries.sh
 ./queries.sh
 ./queries.sh
+pg_dump -cC --inserts -U freecodecamp worldcup > worldcup.sql
+git --version
+gh --version
+git add queries.sh insert_data.sh
+git status
+git add queries.sh
+git status
+ssh-keygen -t ed25519 -C "jafethocampo@icloud.com"
+man less
+less ~/.ssh/id_ed25519.pub
+git remote add sshorigin git@github.com:Jafeth44/word-cup-database.git
+git add .
